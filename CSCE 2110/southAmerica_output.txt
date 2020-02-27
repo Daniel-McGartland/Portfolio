@@ -1,0 +1,29 @@
+Argentina:Green - Chile:Cyan, Uruguay:Magenta, Brazil:Cyan, Paraguay:Red, Bolivia:Magenta, Ocean:Blue
+Bolivia:Magenta - Paraguay:Red, Brazil:Cyan, Argentina:Green, Chile:Cyan, Peru:Green
+Brazil:Cyan - Uruguay:Magenta, Argentina:Green, Paraguay:Red, Bolivia:Magenta, Peru:Green, Colombia:Red, Venezuela:Magenta, Guyana:Red, Suriname:Green, Ocean:Blue
+Chile:Cyan - Bolivia:Magenta, Peru:Green, Argentina:Green, Ocean:Blue
+Colombia:Red - Venezuela:Magenta, Brazil:Cyan, Peru:Green, Ecuador:Cyan, Ocean:Blue
+Ecuador:Cyan - Colombia:Red, Peru:Green, Ocean:Blue
+Guyana:Red - Venezuela:Magenta, Suriname:Green, Brazil:Cyan, Ocean:Blue
+Paraguay:Red - Brazil:Cyan, Bolivia:Magenta, Argentina:Green
+Peru:Green - Ecuador:Cyan, Chile:Cyan, Colombia:Red, Brazil:Cyan, Bolivia:Magenta, Ocean:Blue
+Suriname:Green - Guyana:Red, Brazil:Cyan, Ocean:Blue
+Uruguay:Magenta - Brazil:Cyan, Argentina:Green, Ocean:Blue
+Venezuela:Magenta - Colombia:Red, Guyana:Red, Brazil:Cyan, Ocean:Blue
+Ocean:Blue - Brazil:Cyan, Uruguay:Magenta, Argentina:Green, Chile:Cyan, Peru:Green, Ecuador:Cyan, Colombia:Red, Venezuela:Magenta, Guyana:Red, Suriname:Green
+
+Argentina: 6
+Bolivia: 5
+Brazil: 10
+Chile: 4
+Colombia: 5
+Ecuador:3
+Guyana:4
+Paraguay:3
+Peru:6
+Suriname:3
+Uruguay:3
+Venezuela:4
+Ocean:10
+
+Average Degree: 5

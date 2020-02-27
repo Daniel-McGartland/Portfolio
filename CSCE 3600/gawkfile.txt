@@ -1,0 +1,725 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Oct11 ?        00:04:27 /sbin/init splash
+root         2     0  0 Oct11 ?        00:00:02 [kthreadd]
+root         6     2  0 Oct11 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 Oct11 ?        02:38:33 [ksoftirqd/0]
+root         8     2  0 Oct11 ?        00:33:00 [rcu_sched]
+root         9     2  0 Oct11 ?        00:00:00 [rcu_bh]
+root        10     2  0 Oct11 ?        00:05:29 [migration/0]
+root        11     2  0 Oct11 ?        00:00:05 [watchdog/0]
+root        12     2  0 Oct11 ?        00:00:00 [cpuhp/0]
+root        13     2  0 Oct11 ?        00:00:00 [cpuhp/1]
+root        14     2  0 Oct11 ?        00:00:05 [watchdog/1]
+root        15     2  0 Oct11 ?        00:04:24 [migration/1]
+root        16     2  0 Oct11 ?        04:43:51 [ksoftirqd/1]
+root        19     2  0 Oct11 ?        00:00:00 [cpuhp/2]
+root        20     2  0 Oct11 ?        00:00:05 [watchdog/2]
+root        21     2  0 Oct11 ?        00:05:35 [migration/2]
+root        22     2  0 Oct11 ?        02:37:24 [ksoftirqd/2]
+root        25     2  0 Oct11 ?        00:00:00 [kdevtmpfs]
+root        26     2  0 Oct11 ?        00:00:00 [netns]
+root        27     2  0 Oct11 ?        00:00:00 [rcu_tasks_kthre]
+root        28     2  0 Oct11 ?        00:00:00 [kauditd]
+root        32     2  0 Oct11 ?        00:00:06 [khungtaskd]
+root        33     2  0 Oct11 ?        00:00:00 [oom_reaper]
+root        34     2  0 Oct11 ?        00:00:00 [writeback]
+root        35     2  0 Oct11 ?        00:00:00 [kcompactd0]
+root        36     2  0 Oct11 ?        00:00:00 [ksmd]
+root        37     2  0 Oct11 ?        00:00:00 [khugepaged]
+root        38     2  0 Oct11 ?        00:00:00 [crypto]
+root        39     2  0 Oct11 ?        00:00:00 [kintegrityd]
+root        40     2  0 Oct11 ?        00:00:00 [kblockd]
+root        41     2  0 Oct11 ?        00:00:00 [ata_sff]
+root        42     2  0 Oct11 ?        00:00:00 [md]
+root        43     2  0 Oct11 ?        00:00:00 [edac-poller]
+root        44     2  0 Oct11 ?        00:00:00 [devfreq_wq]
+root        45     2  0 Oct11 ?        00:00:00 [watchdogd]
+root        48     2  0 Oct11 ?        00:04:19 [kswapd0]
+root        49     2  0 Oct11 ?        00:00:00 [kworker/u7:0]
+root        50     2  0 Oct11 ?        00:00:00 [ecryptfs-kthrea]
+root        92     2  0 Oct11 ?        00:00:00 [kthrotld]
+root        93     2  0 Oct11 ?        00:00:00 [acpi_thermal_pm]
+root        95     2  0 Oct11 ?        00:00:00 [scsi_eh_0]
+root        96     2  0 Oct11 ?        00:00:00 [scsi_tmf_0]
+root        97     2  0 Oct11 ?        00:00:00 [scsi_eh_1]
+root        98     2  0 Oct11 ?        00:00:00 [scsi_tmf_1]
+root       101     2  0 Oct11 ?        00:00:00 [ipv6_addrconf]
+root       110     2  0 Oct11 ?        00:00:00 [kstrp]
+root       127     2  0 Oct11 ?        00:00:00 [charger_manager]
+root       190     2  0 Oct11 ?        00:00:00 [mpt_poll_0]
+root       191     2  0 Oct11 ?        00:00:00 [mpt/0]
+root       197     2  0 Oct11 ?        00:00:00 [scsi_eh_2]
+root       198     2  0 Oct11 ?        00:00:00 [scsi_tmf_2]
+root       199     2  0 Oct11 ?        00:00:00 [ttm_swap]
+root       200     2  0 Oct11 ?        00:00:00 [irq/16-vmwgfx]
+root       272     2  0 Oct11 ?        00:00:55 [jbd2/sda1-8]
+root       273     2  0 Oct11 ?        00:00:00 [ext4-rsv-conver]
+root       327     1  0 Oct11 ?        00:13:58 /lib/systemd/systemd-journald
+root       329     2  0 Oct11 ?        00:00:00 [rpciod]
+root       330     2  0 Oct11 ?        00:00:00 [xprtiod]
+root       349     1  0 Oct11 ?        00:00:20 /lib/systemd/systemd-udevd
+root       376     1  0 Oct11 ?        00:00:03 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root       452   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root       473   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root       475   473  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root       479   452  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root       621     1  0 Oct11 ?        00:00:00 /usr/bin/VGAuthService
+systemd+   622     1  0 Oct11 ?        00:00:03 /lib/systemd/systemd-resolved
+root       624     1  0 Oct11 ?        00:00:05 /sbin/rpcbind -f -w
+systemd+   627     1  0 Oct11 ?        00:00:05 /lib/systemd/systemd-timesyncd
+root       685     1  0 Oct11 ?        00:25:30 /usr/bin/vmtoolsd
+syslog     693     1  0 Oct11 ?        00:01:28 /usr/sbin/rsyslogd -n
+root       695     1  0 Oct11 ?        00:01:23 /usr/sbin/irqbalance --foreground
+root       705     1  0 Oct11 ?        05:03:35 /usr/lib/accountsservice/accounts-daemon
+root       713     1  0 Oct11 ?        00:00:06 /usr/sbin/cron -f
+daemon     716     1  0 Oct11 ?        00:00:00 /usr/sbin/atd -f
+root       728     1  0 Oct11 ?        00:00:58 /usr/lib/udisks2/udisksd
+root       786     1  0 Oct11 ?        00:00:00 /usr/sbin/acpid
+root       793     1  0 Oct11 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       796     1  0 Oct11 ?        00:00:00 /usr/sbin/ModemManager --filter-policy=strict
+root       799     1  0 Oct11 ?        00:01:57 /lib/systemd/systemd-logind
+message+   802     1  0 Oct11 ?        00:07:25 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       870   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root       872   870  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root       886     1  0 Oct11 ?        00:00:09 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       887     1  0 Oct11 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+root       891   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root       893   891  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root       907     1  0 Oct11 ?        00:01:05 /usr/lib/policykit-1/polkitd --no-debug
+avahi      942     1  0 Oct11 ?        00:00:17 avahi-daemon: running [cse01.local]
+avahi      945   942  0 Oct11 ?        00:00:00 avahi-daemon: chroot helper
+root      1050     1  0 Oct11 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1059   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root      1061     1  0 Oct11 ?        00:01:51 /usr/sbin/sshd -D
+root      1065     1  0 Oct11 ?        00:00:17 /usr/sbin/lightdm
+root      1077  1065  0 Oct11 tty7     00:00:29 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1081     1  0 Oct11 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      1087     1  0 Oct11 ?        00:03:53 /usr/sbin/automount --pid-file /var/run/autofs.pid
+kernoops  1090     1  0 Oct11 ?        00:00:56 /usr/sbin/kerneloops --test
+kernoops  1092     1  0 Oct11 ?        00:00:56 /usr/sbin/kerneloops
+root      1102  1059  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root      1120  1065  0 Oct11 ?        00:00:03 lightdm --session-child 16 19
+root      1129     1  0 Oct11 ?        00:06:27 /usr/sbin/console-kit-daemon --no-daemon
+lightdm   1202  1120  0 Oct11 ?        00:00:00 /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/unity-greeter
+lightdm   1207     1  0 Oct11 ?        00:00:04 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+lightdm   1208  1202  0 Oct11 ?        00:01:02 /usr/sbin/unity-greeter
+lightdm   1210     1  0 Oct11 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+lightdm   1215  1210  0 Oct11 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+lightdm   1220     1  0 Oct11 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+lightdm   1224     1  0 Oct11 ?        00:00:00 /usr/lib/gvfs/gvfsd
+lightdm   1231     1  0 Oct11 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /var/lib/lightdm/.gvfs -f -o big_writes
+lightdm   1242     1  0 Oct11 ?        00:00:00 /usr/lib/dconf/dconf-service
+lightdm   1251     1  0 Oct11 ?        00:00:00 nm-applet
+lightdm   1255     1  0 Oct11 ?        00:00:18 /usr/lib/unity-settings-daemon/unity-settings-daemon
+root      1273     1  0 Oct11 ?        00:00:00 /usr/lib/upower/upowerd
+colord    1280     1  0 Oct11 ?        00:00:00 /usr/lib/colord/colord
+root      1290  1065  0 Oct11 ?        00:00:00 lightdm --session-child 15 20
+lightdm   1295     1  0 Oct11 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1296     1  0 Oct11 ?        00:00:32 /usr/lib/rtkit/rtkit-daemon
+lightdm   1299  1295  0 Oct11 ?        00:00:00 /usr/lib/i386-linux-gnu/pulse/gconf-helper
+lightdm   1301     1  0 Oct11 ?        00:00:02 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+root      1316     2  0 Oct11 ?        00:00:00 [nfsiod]
+root      1328     2  0 Oct11 ?        00:00:01 [NFSv4 callback]
+root      1450  1061  0 10:42 ?        00:00:00 sshd: bg0284 [priv]
+statd     1513     1  0 Oct11 ?        00:00:00 /sbin/rpc.statd --no-notify
+root      1667   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      1668   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      1669  1668  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      1670  1667  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      1708   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      1709  1708  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+bg0284    1710  1450  0 10:42 ?        00:00:00 sshd: bg0284@pts/17
+bg0284    1711  1710  0 10:42 pts/17   00:00:00 -bash
+root      2186   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      2189  2186  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      2260   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      2261  2260  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      2302  1061  0 10:44 ?        00:00:00 sshd: zcj0008 [priv]
+root      2370   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      2371  2370  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+zcj0008   2372  2302  0 10:44 ?        00:00:00 sshd: zcj0008@notty
+zcj0008   2374  2372  0 10:44 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      2395   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root      2603  2395  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root      2698   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      2701  2698  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      2772   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      2773  2772  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      3001   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      3002   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      3003  3002  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      3004  3001  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      3150  1061  0 10:51 ?        00:00:00 sshd: nsg0055 [priv]
+nsg0055   3213  3150  0 10:51 ?        00:00:00 sshd: nsg0055@pts/19
+nsg0055   3214  3213  0 10:51 pts/19   00:00:00 -bash
+root      3299   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      3301  3299  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      3375     2  0 Nov11 ?        00:01:44 [kworker/1:2H]
+root      3382  1061  0 10:53 ?        00:00:00 sshd: tpa0016 [priv]
+tpa0016   3454  3382  0 10:53 ?        00:00:00 sshd: tpa0016@notty
+tpa0016   3456  3454  0 10:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      3719   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      3720  3719  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+jcf0192   3924 26892  0 10:56 pts/9    00:00:00 vim Lab9B.cpp
+root      3979   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      3981  3979  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      4058   713  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      4111  1061  0 11:03 ?        00:00:00 sshd: bg0284 [priv]
+root      4129  4058  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+bg0284    4177  4111  0 11:03 ?        00:00:00 sshd: bg0284@notty
+bg0284    4178  4177  0 11:03 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      4300   713  0 11:09 ?        00:00:00 /usr/sbin/CRON -f
+root      4301  4300  0 11:09 ?        00:00:00 /usr/sbin/CRON -f
+root      4326   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      4327  4326  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      4349   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      4350  4349  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      4375     2  0 11:10 ?        00:00:00 [kworker/2:1]
+root      4382   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      4384  4382  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      4686   713  0 11:17 ?        00:00:00 /usr/sbin/CRON -f
+root      4687  4686  0 11:17 ?        00:00:00 /usr/sbin/CRON -f
+root      4823   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      4825  4823  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      4870  1061  0 11:21 ?        00:00:00 sshd: nbj0014 [priv]
+root      4901   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      4903  4901  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+nbj0014   4941  4870  0 11:21 ?        00:00:00 sshd: nbj0014@pts/0
+nbj0014   4942  4941  0 11:21 pts/0    00:00:00 -bash
+root      5022  1061  0 11:22 ?        00:00:00 sshd: sbf0044 [priv]
+sbf0044   5092  5022  0 11:22 ?        00:00:00 sshd: sbf0044@pts/5
+sbf0044   5095  5092  0 11:22 pts/5    00:00:00 -bash
+root      5104   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      5105  5104  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      5152  1061  0 11:23 ?        00:00:00 sshd: fy0039 [priv]
+fy0039    5222  5152  0 11:23 ?        00:00:00 sshd: fy0039@pts/16
+fy0039    5223  5222  0 11:23 pts/16   00:00:00 -bash
+root      5260   713  0 Nov09 ?        00:00:00 /usr/sbin/CRON -f
+root      5292  1061  0 11:24 ?        00:00:00 sshd: mcs0288 [priv]
+mcs0288   5354  5292  0 11:24 ?        00:00:00 sshd: mcs0288@pts/18
+mcs0288   5355  5354  0 11:24 pts/18   00:00:00 -bash
+root      5384  5260  0 Nov09 ?        00:00:00 /usr/sbin/CRON -f
+root      5391  1061  0 11:24 ?        00:00:00 sshd: mlm0694 [priv]
+mlm0694   5462  5391  0 11:25 ?        00:00:00 sshd: mlm0694@pts/21
+mlm0694   5463  5462  0 11:25 pts/21   00:00:00 -bash
+root      5528  1061  0 11:26 ?        00:00:00 sshd: djm0265 [priv]
+root      5531  1061  0 11:26 ?        00:00:00 sshd: pk0289 [priv]
+pk0289    5601  5531  0 11:26 ?        00:00:00 sshd: pk0289@notty
+pk0289    5602  5601  0 11:26 ?        00:00:00 /usr/lib/openssh/sftp-server
+djm0265   5674  5528  0 11:26 ?        00:00:00 sshd: djm0265@pts/23
+djm0265   5675  5674  0 11:26 pts/23   00:00:00 -bash
+root      5676     2  0 11:26 ?        00:00:00 [kworker/u6:2]
+root      5683   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root      5684  5683  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root      5726  1061  0 11:27 ?        00:00:00 sshd: nkn0021 [priv]
+nkn0021   5800  5726  0 11:27 ?        00:00:00 sshd: nkn0021@notty
+nkn0021   5801  5800  0 11:27 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      5820  1061  0 11:27 ?        00:00:00 sshd: pk0289 [priv]
+root      5824  1061  0 11:27 ?        00:00:00 sshd: geb0079 [priv]
+geb0079   5882  5824  0 11:27 ?        00:00:00 sshd: geb0079@notty
+geb0079   5883  5882  0 11:27 ?        00:00:00 /usr/lib/openssh/sftp-server
+pk0289    5940  5820  0 11:27 ?        00:00:00 sshd: pk0289@pts/27
+pk0289    5941  5940  0 11:27 pts/27   00:00:00 -bash
+root      5978  1061  0 11:27 ?        00:00:00 sshd: geb0079 [priv]
+geb0079   6042  5978  0 11:28 ?        00:00:00 sshd: geb0079@pts/28
+root      6043   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6044  6043  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+geb0079   6045  6042  0 11:28 pts/28   00:00:00 -bash
+root      6100     2  0 11:28 ?        00:00:00 [kworker/1:0]
+root      6102  1061  0 11:28 ?        00:00:00 sshd: geb0079 [priv]
+geb0079   6161  6102  0 11:28 ?        00:00:00 sshd: geb0079@notty
+geb0079   6163  6161  0 11:28 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      6165  1061  0 11:28 ?        00:00:00 sshd: nkn0021 [priv]
+cjb0338   6170     1  0 Oct24 ?        00:00:00 nano carmain.cpp
+nkn0021   6225  6165  0 11:28 ?        00:00:00 sshd: nkn0021@notty
+nkn0021   6226  6225  0 11:28 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      6398  1061  0 11:31 ?        00:00:00 sshd: air0036 [priv]
+root      6493   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      6495  6493  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      6496   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6497   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6498  6496  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6499  6497  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6504  1061  0 11:31 ?        00:00:00 sshd: jek0138 [priv]
+jek0138   6575  6504  0 11:31 ?        00:00:00 sshd: jek0138@notty
+jek0138   6576  6575  0 11:31 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      6591   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6592  6591  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+air0036   6689  6398  0 11:32 ?        00:00:00 sshd: air0036@notty
+air0036   6690  6689  0 11:32 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      6694  1061  0 11:32 ?        00:00:00 sshd: air0036 [priv]
+root      6745   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      6746  6745  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+air0036   6757  6694  0 11:32 ?        00:00:00 sshd: air0036@notty
+air0036   6758  6757  0 11:32 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      6776  1061  0 11:32 ?        00:00:00 sshd: nkn0021 [priv]
+root      6781     2  0 11:32 ?        00:00:00 [kworker/u6:3]
+nkn0021   6844  6776  0 11:32 ?        00:00:00 sshd: nkn0021@pts/3
+nkn0021   6845  6844  0 11:32 pts/3    00:00:00 -bash
+root      6868  1061  0 11:33 ?        00:00:00 sshd: djm0265 [priv]
+root      6895   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      6897  6895  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+djm0265   6929  6868  0 11:33 ?        00:00:00 sshd: djm0265@notty
+djm0265   6930  6929  0 11:33 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      6939  1061  0 11:33 ?        00:00:00 sshd: nkn0021 [priv]
+root      6943  1061  0 11:33 ?        00:00:00 sshd: pk0289 [priv]
+pk0289    7002  6943  0 11:33 ?        00:00:00 sshd: pk0289@notty
+pk0289    7003  7002  0 11:33 ?        00:00:00 /usr/lib/openssh/sftp-server
+nkn0021   7078  6939  0 11:33 ?        00:00:00 sshd: nkn0021@pts/30
+nkn0021   7079  7078  0 11:33 pts/30   00:00:00 -bash
+root      7115  1061  0 11:34 ?        00:00:00 sshd: afm0089 [priv]
+root      7133     2  0 11:34 ?        00:00:00 [kworker/1:1]
+wag0041   7182     1  0 Nov08 ?        00:00:00 sort
+wag0041   7183     1  0 Nov08 ?        00:00:00 wc
+afm0089   7194  7115  0 11:34 ?        00:00:00 sshd: afm0089@pts/7
+afm0089   7195  7194  0 11:34 pts/7    00:00:00 -bash
+root      7240  1061  0 11:34 ?        00:00:00 sshd: afm0089 [priv]
+root      7297   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      7298  7297  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+afm0089   7303  7240  0 11:34 ?        00:00:00 sshd: afm0089@notty
+afm0089   7304  7303  0 11:34 ?        00:00:00 /usr/lib/openssh/sftp-server
+djm0265   7314  5675  0 11:34 pts/23   00:00:00 script rec09
+djm0265   7315  7314  0 11:34 pts/10   00:00:00 bash -i
+root      7356  1061  0 11:35 ?        00:00:00 sshd: afm0089 [priv]
+root      7378  1061  0 Nov12 ?        00:00:00 sshd: yl0340 [priv]
+afm0089   7415  7356  0 11:35 ?        00:00:00 sshd: afm0089@notty
+afm0089   7416  7415  0 11:35 ?        00:00:00 /usr/lib/openssh/sftp-server
+yl0340    7440  7378  0 Nov12 ?        00:00:00 sshd: yl0340@pts/8
+yl0340    7441  7440  0 Nov12 pts/8    00:00:00 -bash
+root      7445  1061  0 11:35 ?        00:00:00 sshd: amm0813 [priv]
+root      7488  1061  0 Nov12 ?        00:00:00 sshd: yl0340 [priv]
+amm0813   7513  7445  0 11:36 ?        00:00:00 sshd: amm0813@pts/15
+amm0813   7514  7513  0 11:36 pts/15   00:00:00 -bash
+root      7529   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      7531  7529  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+yl0340    7546  7488  0 Nov12 ?        00:00:00 sshd: yl0340@notty
+yl0340    7547  7546  0 Nov12 ?        00:00:00 /usr/lib/openssh/sftp-server
+bg0284    7554  1711  0 11:36 pts/17   00:00:00 script rec09.txt
+bg0284    7555  7554  0 11:36 pts/32   00:00:00 bash -i
+root      7579     2  0 11:36 ?        00:00:00 [kworker/2:0]
+root      7651  1061  0 11:36 ?        00:00:00 sshd: sm1067 [priv]
+wag0041   7656     1  0 Nov08 ?        00:00:00 wc
+wag0041   7657     1  0 Nov08 ?        00:00:00 sort
+sm1067    7712  7651  0 11:36 ?        00:00:00 sshd: sm1067@pts/31
+sm1067    7713  7712  0 11:36 pts/31   00:00:00 -bash
+root      7751  1061  0 11:36 ?        00:00:00 sshd: jeh0289 [priv]
+root      7763  1061  0 11:36 ?        00:00:00 sshd: jeh0289 [priv]
+jeh0289   7812  7751  0 11:36 ?        00:00:00 sshd: jeh0289@pts/33
+jeh0289   7829  7812  0 11:36 pts/33   00:00:00 -bash
+jeh0289   7902  7763  0 11:36 ?        00:00:00 sshd: jeh0289@notty
+jeh0289   7908  7902  0 11:36 ?        00:00:00 /usr/lib/openssh/sftp-server
+root      8163     2  0 11:37 ?        00:00:00 [kworker/0:2]
+ems0237   8213 29970  0 11:38 pts/25   00:00:00 vi ms.c
+root      8234   713  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      8246     2  0 11:38 ?        00:00:00 [kworker/u6:0]
+root      8282   713  0 11:39 ?        00:00:00 /usr/sbin/CRON -f
+root      8283  8282  0 11:39 ?        00:00:00 /usr/sbin/CRON -f
+root      8300   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      8301  8300  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      8344  8234  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      8365     2  0 11:39 ?        00:00:00 [kworker/1:2]
+mlm0694   8371  5463  0 11:39 pts/21   00:00:00 vim goatmain.cpp
+rlb0421   8412 31274  0 11:40 pts/4    00:00:00 vi minor4.c
+root      8426  1061  0 11:41 ?        00:00:00 sshd: rlb0421 [priv]
+root      8475   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root      8477  8475  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+rlb0421   8490  8426  0 11:41 ?        00:00:00 sshd: rlb0421@pts/34
+rlb0421   8491  8490  0 11:41 pts/34   00:00:00 -bash
+root      8498  1061  0 Oct22 ?        00:00:03 sshd: cr0582 [priv]
+cr0582    8574  8498  0 Oct22 ?        00:00:04 sshd: cr0582@notty
+cr0582    8575  8574  0 Oct22 ?        00:00:00 /usr/lib/openssh/sftp-server
+nsg0055   8590  3214  0 11:42 pts/19   00:00:00 vi snakemain.cpp
+root      8595     2  0 11:42 ?        00:00:00 [kworker/2:2]
+root      8609     2  0 11:42 ?        00:00:00 [kworker/0:0]
+mcs0288   8635  5355  0 11:43 pts/18   00:00:00 vi main.cpp
+nbj0014   8639  4942  0 11:43 pts/0    00:00:00 vim animal.cpp
+djm0265   8640  7315  0 11:43 pts/10   00:00:00 ps -ef
+root      8818   713  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      8865  8818  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      8937   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      8940  8937  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root      9017   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9018  9017  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+whoopsie  9121     1  0 Nov05 ?        00:00:00 /usr/bin/whoopsie -f
+root      9137   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      9140  9137  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root      9428   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9429   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9430  9428  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9431  9429  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9513   713  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      9544   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9545  9544  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root      9631  9513  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root      9771   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root      9773  9771  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     10103   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     10104 10103  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     10205   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     10206 10205  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     10265   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     10266   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     10267 10266  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     10268 10265  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+sml0262  10275     1  0 Nov13 ?        00:00:01 SCREEN -S 4430
+sml0262  10276 10275  0 Nov13 pts/20   00:00:00 /bin/bash
+root     10422   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     10510   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     10511 10510  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     10648 10422  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     11059   713  0 Oct30 ?        00:00:00 /usr/sbin/CRON -f
+root     11061 11059  0 Oct30 ?        00:00:00 /usr/sbin/CRON -f
+root     11349   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     11351 11349  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+sml0262  11371 10275  0 Nov13 pts/24   00:00:00 /bin/bash
+root     11441   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     11499 11441  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     11670   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     11671 11670  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     11780   713  0 Nov03 ?        00:00:00 /usr/sbin/CRON -f
+root     11783 11780  0 Nov03 ?        00:00:00 /usr/sbin/CRON -f
+root     12021   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     12022 12021  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     12092  1061  0 Nov12 ?        00:00:00 sshd: amm0813 [priv]
+root     12208   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     12210 12208  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+amm0813  12221 12092  0 Nov12 ?        00:00:01 sshd: amm0813@pts/1
+amm0813  12222 12221  0 Nov12 pts/1    00:00:00 -bash
+root     12294   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     12295 12294  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+wag0041  12435     1  0 Nov08 ?        00:00:00 sort
+wag0041  12436     1  0 Nov08 ?        00:00:00 wc
+root     12505   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     12507 12505  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     12581   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12582   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12583 12582  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12584 12581  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12723   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     12747 12723  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     12856   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12858 12856  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12922   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     12923 12922  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     13086   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     13087 13086  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     13095  1061  0 Nov14 ?        00:00:00 sshd: mcs0288 [priv]
+root     13110   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     13111   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     13112 13110  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     13113 13111  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     13168   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     13169 13168  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+mcs0288  13181 13095  0 Nov14 ?        00:00:00 sshd: mcs0288@pts/11
+mcs0288  13182 13181  0 Nov14 pts/11   00:00:00 -bash
+root     13214   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     13215   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     13216 13214  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     13217 13215  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     13321   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     13322   713  0 Oct28 ?        00:00:00 /usr/sbin/CRON -f
+root     13323 13321  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     13324 13322  0 Oct28 ?        00:00:00 /usr/sbin/CRON -f
+root     13329   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     13330 13329  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     13909   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     13910   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     13911 13910  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     13912 13909  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     14001   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     14021 14001  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     14175   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     14176 14175  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     14177   713  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root     14327   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     14328   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     14329 14327  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     14330 14328  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     14387 14177  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root     14435     2  0 Nov14 ?        00:00:01 [kworker/0:2H]
+root     14595   713  0 Oct31 ?        00:00:00 /usr/sbin/CRON -f
+root     14596 14595  0 Oct31 ?        00:00:00 /usr/sbin/CRON -f
+root     14952   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     14953 14952  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     15013   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     15014 15013  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     15047   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     15049 15047  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     15063   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     15065 15063  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     15096  1061  0 Nov13 ?        00:00:00 sshd: mk0689 [priv]
+mk0689   15166 15096  0 Nov13 ?        00:00:00 sshd: mk0689@notty
+mk0689   15167 15166  0 Nov13 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     15749   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     15751 15749  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     16049   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     16050 16049  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     16103   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     16104   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     16105 16104  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     16106 16103  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     16431   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     16432 16431  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     16434   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     16445 16434  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     16457   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     16458   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     16459 16457  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     16460 16458  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     16626   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     16628 16626  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     16769   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     16772 16769  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     16825   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     16827 16825  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     17080   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     17081 17080  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     17164   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     17167 17164  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     17273   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     17275 17273  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     17321   713  0 Nov02 ?        00:00:00 /usr/sbin/CRON -f
+root     17323 17321  0 Nov02 ?        00:00:00 /usr/sbin/CRON -f
+root     17580   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     17581   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     17582 17581  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     17583 17580  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     17767   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     17785 17767  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     18224   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     18225 18224  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     18592   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     18593 18592  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     18723     2  0 Nov11 ?        00:00:00 [kworker/1:1H]
+root     18849   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     18871 18849  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     18931   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     18934 18931  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     18949     1  3 Nov10 ?        04:57:16 python /usr/sbin/denyhosts --daemon --purge --config=/etc/denyhosts.conf
+root     19234   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     19236 19234  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     19407   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     19409 19407  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     19422   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     19458 19422  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     19586   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     19587 19586  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     19857     1  0 Oct12 ?        00:00:12 /usr/lib/packagekit/packagekitd
+root     19927   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     19928 19927  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     19963   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     19965 19963  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     19968   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     19971 19968  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     20117   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     20360 20117  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     20376   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     20378 20376  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     20614   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     20615 20614  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     20630   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     20632 20630  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     20892   713  0 Nov01 ?        00:00:00 /usr/sbin/CRON -f
+root     20893 20892  0 Nov01 ?        00:00:00 /usr/sbin/CRON -f
+root     21291   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     21293 21291  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     21364   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     21365 21364  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     21581     2  0 Nov11 ?        00:00:06 [kworker/2:2H]
+root     21586   713  0 06:39 ?        00:00:00 /usr/sbin/CRON -f
+root     21588 21586  0 06:39 ?        00:00:00 /usr/sbin/CRON -f
+root     21631   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     21650 21631  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     21870   713  0 07:09 ?        00:00:00 /usr/sbin/CRON -f
+root     21872 21870  0 07:09 ?        00:00:00 /usr/sbin/CRON -f
+root     21924   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     21925 21924  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     22000     2  0 Nov11 ?        00:00:00 [kworker/0:1H]
+root     22272   713  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root     22288 22272  0 Nov10 ?        00:00:00 /usr/sbin/CRON -f
+root     22301   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     22302 22301  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     22374   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     22377 22374  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     22429   713  0 07:39 ?        00:00:00 /usr/sbin/CRON -f
+root     22431 22429  0 07:39 ?        00:00:00 /usr/sbin/CRON -f
+root     22478     2  0 Nov11 ?        00:00:00 [kworker/2:1H]
+root     22695   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     22696 22695  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     22941  1061  0 Nov13 ?        00:00:00 sshd: amm0813 [priv]
+root     23056  1061  0 07:58 ?        00:00:00 sshd: jp0787 [priv]
+jp0787   23115 23056  0 07:58 ?        00:00:00 sshd: jp0787@notty
+jp0787   23116 23115  0 07:58 ?        00:00:00 /usr/lib/openssh/sftp-server
+amm0813  23155 22941  0 Nov13 ?        00:00:00 sshd: amm0813@pts/26
+amm0813  23156 23155  0 Nov13 pts/26   00:00:00 -bash
+root     23259   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     23262 23259  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     23283   713  0 08:09 ?        00:00:00 /usr/sbin/CRON -f
+root     23285 23283  0 08:09 ?        00:00:00 /usr/sbin/CRON -f
+root     23312   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     23319 23312  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     23324   713  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     23326 23324  0 Nov07 ?        00:00:00 /usr/sbin/CRON -f
+root     23335   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     23336 23335  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     23535   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     23537 23535  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     23646   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     23649   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     23655 23646  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     23659   713  0 08:17 ?        00:00:00 /usr/sbin/CRON -f
+root     23660 23659  0 08:17 ?        00:00:00 /usr/sbin/CRON -f
+root     23667 23649  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     23910   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     23912 23910  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+sml0262  24002 10276  0 Nov13 pts/20   00:00:00 vim CliteAST.java
+root     24049   713  0 Nov04 ?        00:00:00 /usr/sbin/CRON -f
+root     24050 24049  0 Nov04 ?        00:00:00 /usr/sbin/CRON -f
+root     24074   713  0 Nov03 ?        00:00:00 /usr/sbin/CRON -f
+root     24075 24074  0 Nov03 ?        00:00:00 /usr/sbin/CRON -f
+kpa0024  24096     1  0 Oct28 ?        00:00:00 rsync --server -vlogDtprze.iLsfxC --partial . /home/kpa0024/.misc/old/a
+root     24286   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     24288 24286  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     24401   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     24423   713  0 08:39 ?        00:00:00 /usr/sbin/CRON -f
+root     24424   713  0 08:39 ?        00:00:00 /usr/sbin/CRON -f
+root     24425 24423  0 08:39 ?        00:00:00 /usr/sbin/CRON -f
+root     24426 24424  0 08:39 ?        00:00:00 /usr/sbin/CRON -f
+root     24434 24401  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     24510   713  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     24511 24510  0 Nov05 ?        00:00:00 /usr/sbin/CRON -f
+root     24880   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     24882 24880  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     24911   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     24912 24911  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+hk0370   24956     1  0 Oct29 ?        00:00:03 tmux
+hk0370   24957 24956  0 Oct29 pts/13   00:00:00 -bash
+hk0370   24991 24956  0 Oct29 pts/14   00:00:00 -bash
+root     25017   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     25029     1  0 00:06 ?        00:00:00 /usr/sbin/cupsd -l
+root     25030     1  0 00:06 ?        00:00:00 /usr/sbin/cups-browsed
+root     25034 25017  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     25077   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     25079 25077  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+wag0041  25152     1  0 Nov08 ?        00:00:00 wc
+root     25300   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     25301 25300  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     25414   713  0 00:17 ?        00:00:00 /usr/sbin/CRON -f
+root     25415 25414  0 00:17 ?        00:00:00 /usr/sbin/CRON -f
+root     25651   713  0 09:09 ?        00:00:00 /usr/sbin/CRON -f
+root     25653 25651  0 09:09 ?        00:00:00 /usr/sbin/CRON -f
+root     25760   713  0 Nov04 ?        00:00:00 /usr/sbin/CRON -f
+root     25793 25760  0 Nov04 ?        00:00:00 /usr/sbin/CRON -f
+root     25832   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     25833 25832  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     25879   713  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+amm0813  25880 12222  0 Nov13 pts/1    00:00:00 ./bitwisemenu
+root     25881 25879  0 Nov06 ?        00:00:00 /usr/sbin/CRON -f
+root     26037   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     26040 26037  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     26078   713  0 Nov09 ?        00:00:00 /usr/sbin/CRON -f
+root     26093 26078  0 Nov09 ?        00:00:00 /usr/sbin/CRON -f
+root     26186   713  0 Nov03 ?        00:00:00 /usr/sbin/CRON -f
+root     26188 26186  0 Nov03 ?        00:00:00 /usr/sbin/CRON -f
+root     26210     2  0 Oct23 ?        00:00:00 [xfsalloc]
+root     26217     2  0 Oct23 ?        00:00:00 [xfs_mru_cache]
+root     26222     2  0 Oct23 ?        00:00:00 [jfsIO]
+root     26223     2  0 Oct23 ?        00:00:00 [jfsCommit]
+root     26224     2  0 Oct23 ?        00:00:00 [jfsCommit]
+root     26225     2  0 Oct23 ?        00:00:00 [jfsCommit]
+root     26226     2  0 Oct23 ?        00:00:00 [jfsSync]
+root     26253   713  0 09:17 ?        00:00:00 /usr/sbin/CRON -f
+root     26254 26253  0 09:17 ?        00:00:00 /usr/sbin/CRON -f
+root     26292   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     26294 26292  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     26390   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     26419 26390  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     26609   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     26613   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     26615 26613  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     26732 26609  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     26805  1061  0 09:21 ?        00:00:00 sshd: jcf0192 [priv]
+root     26857   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     26858 26857  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+jcf0192  26891 26805  0 09:21 ?        00:00:00 sshd: jcf0192@pts/9
+jcf0192  26892 26891  0 09:21 pts/9    00:00:00 -bash
+root     27119   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     27120 27119  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     27178   713  0 01:32 ?        00:00:00 /usr/sbin/CRON -f
+root     27179 27178  0 01:32 ?        00:00:00 /usr/sbin/CRON -f
+wag0041  27228     1  0 Nov08 ?        00:00:00 sort
+root     27246   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     27247 27246  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     27299   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     27301 27299  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     27340   713  0 Nov09 ?        00:00:00 /usr/sbin/CRON -f
+root     27419 27340  0 Nov09 ?        00:00:00 /usr/sbin/CRON -f
+root     27893   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     27894 27893  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     28080   713  0 02:17 ?        00:00:00 /usr/sbin/CRON -f
+root     28081 28080  0 02:17 ?        00:00:00 /usr/sbin/CRON -f
+jim0072  28095     1  0 Oct17 ?        00:00:00 rsync --daemon --port=29486 --config=/home/jim0072/.vs/rsync/14100_a3df7d36-f732-4693-8244-f95102a75750/rsyncd.conf
+root     28191   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     28192   713  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     28219 28191  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     28229 28192  0 Nov08 ?        00:00:00 /usr/sbin/CRON -f
+root     28237   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     28238 28237  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     28563     2  0 02:51 ?        00:00:03 [kworker/0:1]
+root     28683   713  0 09:39 ?        00:00:00 /usr/sbin/CRON -f
+root     28685 28683  0 09:39 ?        00:00:00 /usr/sbin/CRON -f
+root     28953   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     28954 28953  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     28993   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     28994 28993  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     29224   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     29225 29224  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     29464  1061  0 09:47 ?        00:00:00 sshd: jp0787 [priv]
+root     29503   713  0 04:09 ?        00:00:00 /usr/sbin/CRON -f
+root     29505 29503  0 04:09 ?        00:00:00 /usr/sbin/CRON -f
+jp0787   29525 29464  0 09:47 ?        00:00:00 sshd: jp0787@pts/22
+jp0787   29526 29525  0 09:47 pts/22   00:00:00 -bash
+root     29544   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     29547 29544  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     29749   713  0 04:39 ?        00:00:00 /usr/sbin/CRON -f
+root     29752 29749  0 04:39 ?        00:00:00 /usr/sbin/CRON -f
+root     29790   713  0 Oct30 ?        00:00:00 /usr/sbin/CRON -f
+root     29791 29790  0 Oct30 ?        00:00:00 /usr/sbin/CRON -f
+root     29879  1061  0 09:50 ?        00:00:00 sshd: ems0237 [priv]
+ems0237  29969 29879  0 09:51 ?        00:00:02 sshd: ems0237@pts/25
+ems0237  29970 29969  0 09:51 pts/25   00:00:00 -bash
+root     30183   713  0 05:17 ?        00:00:00 /usr/sbin/CRON -f
+root     30184 30183  0 05:17 ?        00:00:00 /usr/sbin/CRON -f
+jim0072  30334     1  0 Oct17 ?        00:00:00 rsync --daemon --port=56126 --config=/home/jim0072/.vs/rsync/11896_5723f5cd-9afc-42f6-98f2-38ef3b25e55c/rsyncd.conf
+root     30685  1061  0 10:02 ?        00:00:00 sshd: jar0578 [priv]
+root     30691   713  0 06:09 ?        00:00:00 /usr/sbin/CRON -f
+root     30693 30691  0 06:09 ?        00:00:00 /usr/sbin/CRON -f
+jar0578  30746 30685  0 10:02 ?        00:00:00 sshd: jar0578@pts/2
+jar0578  30747 30746  0 10:02 pts/2    00:00:00 -bash
+root     30791  1061  0 10:02 ?        00:00:00 sshd: cmd0327 [priv]
+cmd0327  30850 30791  0 10:02 ?        00:00:00 sshd: cmd0327@pts/6
+cmd0327  30851 30850  0 10:02 pts/6    00:00:00 -bash
+root     31013   713  0 10:09 ?        00:00:00 /usr/sbin/CRON -f
+root     31014 31013  0 10:09 ?        00:00:00 /usr/sbin/CRON -f
+root     31171   713  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     31173 31171  0 Nov11 ?        00:00:00 /usr/sbin/CRON -f
+root     31199  1061  0 10:15 ?        00:00:00 sshd: rlb0421 [priv]
+root     31267   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     31269 31267  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+rlb0421  31273 31199  0 10:15 ?        00:00:02 sshd: rlb0421@pts/4
+rlb0421  31274 31273  0 10:15 pts/4    00:00:00 -bash
+root     31414   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     31415   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     31416 31415  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     31417 31414  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     31555   713  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     31557 31555  0 Nov12 ?        00:00:00 /usr/sbin/CRON -f
+root     31585   713  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     31586 31585  0 Nov13 ?        00:00:00 /usr/sbin/CRON -f
+root     31602   713  0 10:17 ?        00:00:00 /usr/sbin/CRON -f
+root     31603 31602  0 10:17 ?        00:00:00 /usr/sbin/CRON -f
+elm0153  31879     1  0 Oct31 ?        00:00:00 top
+root     32041   713  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     32042 32041  0 Nov14 ?        00:00:00 /usr/sbin/CRON -f
+root     32720   713  0 Nov04 ?        00:00:00 /usr/sbin/CRON -f
+root     32722 32720  0 Nov04 ?        00:00:00 /usr/sbin/CRON -f

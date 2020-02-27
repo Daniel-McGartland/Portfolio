@@ -1,0 +1,33 @@
+Australia:Green - Ocean:Blue
+Fiji:Green - Ocean:Blue
+Kiribati:Green - Ocean:Blue
+Marshall Islands:Green - Ocean:Blue
+Micronesia:Green - Ocean:Blue
+Nauru:Green - Ocean:Blue
+New Zealand:Green - Ocean:Blue
+Palau:Green - Ocean:Blue
+Papua New Guinea:Green - Solomon Islands:Red, Ocean:Blue
+Samoa:Green - Ocean:Blue
+Solomon Islands:Red - Papua New Guinea:Green, Ocean:Blue
+Tonga:Green - Ocean:Blue
+Tuvalu:Green - Ocean:Blue
+Vanuatu:Green - Ocean:Blue
+Ocean:Blue - Australia:Green, Fiji:Green, Kiribati:Green, Marshall Islands:Green, Micronesia:Green, Nauru:Green, New Zealand:Green, Palau:Green, Papua New Guinea:Green, Samoa:Green, Solomon Islands:Red, Tonga:Green, Tuvalu:Green, Vanuatu:Green
+
+Australia: 1
+Fiji: 1
+Kiribati: 1
+Marshall Islands: 1
+Micronesia: 1
+Nauru: 1
+New Zealand: 1
+Palau: 1
+Papua New Guinea: 2
+Samoa: 1
+Solomon Islands: 2
+Tonga: 1
+Tuvalu: 1
+Vanuatu: 1
+Ocean:14
+
+Average Degree: 2
